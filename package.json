@@ -1,0 +1,32 @@
+{
+  "name": "virtual-museum",
+  "version": "1.0.0",
+  "description": "3D Virtual Museum with interactive exhibits",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "dependencies": {
+    "@types/three": "^0.158.3",
+    "three": "^0.158.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.45.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  },
+  "keywords": [
+    "3d",
+    "museum",
+    "virtual",
+    "threejs",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
